@@ -1,7 +1,7 @@
 module MathGame
   # class Game
   class Game
-    WRONG_MSG = ['Seriously? No!', 'ZOMG No NO NO!']
+    WRONG_MSG = ['Seriously? No!', 'ZOMG No NO NO!'].freeze
     def initialize(player1, player2)
       @current_player = player1
       @player1 = player1

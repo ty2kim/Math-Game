@@ -15,8 +15,5 @@ module MathGame
     def incr_score
       @current_lives += 1
     end
-
-
-
   end
 end
